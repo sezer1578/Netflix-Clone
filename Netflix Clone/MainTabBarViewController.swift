@@ -21,15 +21,15 @@ class MainTabBarViewController: UITabBarController {
         
         //TabBar set icon
         vc1.tabBarItem.image = UIImage(systemName: "house")
-        vc2.tabBarItem.image = UIImage(systemName: "play.circle")
+        vc2.tabBarItem.image = UIImage(systemName: "play.rectangle.on.rectangle")
         vc3.tabBarItem.image = UIImage(systemName: "magnifyingglass")
-        vc4.tabBarItem.image = UIImage(systemName: "arrow.down.to.line")
+        vc4.tabBarItem.image = UIImage(systemName: "arrow.down.circle")
         
         //TabBar set title
-        vc1.title = "Home"
-        vc2.title = "Coming Soon"
-        vc3.title = "Top Search"
-        vc4.title = "Downloads"
+        vc1.title = "Anasayfa"
+        vc2.title = "Yeni ve Popüler"
+        vc3.title = "Ara"
+        vc4.title = "İndirilenler"
         
         tabBar.tintColor = .label
         
